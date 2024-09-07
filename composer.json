@@ -1,0 +1,18 @@
+{
+	"config": {
+		"optimize-autoloader": true
+	},
+	"autoload" : {
+		"psr-4": {
+			"Admintosh\\Classes\\" : "./classes",
+			"Admintosh\\Inc\\" : "./inc",
+			"Admintosh\\Admin\\" : "./admin"
+		},
+		"classmap": [
+			"classes/",
+			"inc/",
+			"admin/"
+		]
+	}
+	
+}
